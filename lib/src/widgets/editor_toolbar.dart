@@ -266,7 +266,7 @@ Widget defaultToggleStyleButtonBuilder(
     hoverElevation: 0,
     size: 22,
     icon: Icon(
-      Icons.format_bold,
+      icon,
       size: 18,
       color: Theme.of(context).iconTheme.color,
     ),
