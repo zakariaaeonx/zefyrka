@@ -264,9 +264,13 @@ Widget defaultToggleStyleButtonBuilder(
   return ZIconButton(
     highlightElevation: 0,
     hoverElevation: 0,
-    size: 32,
-    icon: Icon(icon, size: 18, color: iconColor),
-    fillColor: fillColor,
+    size: 22,
+    icon: Icon(
+      Icons.format_bold,
+      size: 18,
+      color: Theme.of(context).iconTheme.color,
+    ),
+    fillColor: Colors.transparent,
     onPressed: onPressed,
   );
 }
