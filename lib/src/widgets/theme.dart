@@ -113,7 +113,7 @@ class ZefyrThemeData {
       fontSize: 16.0,
       height: 1.3,
     );
-    final baseSpacing = VerticalSpacing(top: 6.0, bottom: 6);
+    final baseSpacing = VerticalSpacing(top: 0.0, bottom: 0);
 
     String? fontFamily;
     switch (themeData.platform) {
